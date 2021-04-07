@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "password1",
+      "type": "user"
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "type": "admin"
+    }
+  ],
+  "sessions": [
+    {
+      "cookieID": "eaf12d65-b86e-4b49-a88d-c8516ba6233f",
+      "username": "admin",
+      "type": "admin",
+      "id": 1
+    },
+    {
+      "cookieID": "f97d1334-1275-4050-b008-8c759eae06db",
+      "username": "admin",
+      "id": 2
+    },
+    {
+      "cookieID": "e882b5c5-1ef1-4265-81f2-e9117a14b02d",
+      "username": "admin",
+      "id": 3
+    },
+    {
+      "cookieID": "ffdef68b-a541-4912-816f-693c28421e79",
+      "username": "admin",
+      "id": 4
+    },
+    {
+      "cookieID": "ec96249a-a0d9-47f2-b32b-29cd5427029f",
+      "username": "admin",
+      "id": 5
+    },
+    {
+      "cookieID": "edf31d12-a59b-44f7-a307-ba1a19d82add",
+      "username": "admin",
+      "id": 6
+    },
+    {
+      "cookieID": "0b0993c4-22fd-4470-bae0-fc541b6dfd3c",
+      "username": "admin",
+      "id": 7
+    },
+    {
+      "cookieID": "7f4c4ebc-d04a-47ad-a527-48d6314f7558",
+      "username": "admin",
+      "id": 8
+    },
+    {
+      "cookieID": "be986fce-3b9a-4899-9ab6-3e48be5e09a5",
+      "username": "admin",
+      "id": 9
+    },
+    {
+      "cookieID": "1231fce5-ff5b-496c-be49-ad07b6334a42",
+      "username": "admin",
+      "id": 10
+    },
+    {
+      "cookieID": "4eb488b0-2344-41e8-9c12-9a5fc4259bc2",
+      "username": "admin",
+      "id": 11
+    },
+    {
+      "cookieID": "9fe449e6-d93f-46ea-91a2-ae7514faa117",
+      "username": "admin",
+      "id": 12
+    },
+    {
+      "cookieID": "2dc9b7de-c5a9-419c-a271-ea8b20ddd732",
+      "username": "admin",
+      "id": 13
+    },
+    {
+      "cookieID": "a7ee4620-8b5f-4705-b063-56f807d28651",
+      "username": "admin",
+      "id": 14
+    },
+    {
+      "cookieID": "4ac51875-67f3-4e98-ab97-ec5c114369f3",
+      "username": "admin",
+      "id": 15
+    }
+  ]
+}
