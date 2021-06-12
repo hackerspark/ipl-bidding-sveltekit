@@ -28,7 +28,7 @@
       if (user.type === 'user') {
         goto('/my-team');
       } else if (user.type === 'admin') {
-        goto('/control-panel');
+        goto('/bid-controls');
       }
     },
   });

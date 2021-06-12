@@ -40,3 +40,5 @@ By default, `npm run build` will generate a Node app that you can run with `node
 - ...more soon
 
 [See the adapter documentation for more detail](https://kit.svelte.dev/docs#adapters)
+
+<!-- Use npx libyear -->

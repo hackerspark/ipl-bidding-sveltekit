@@ -12,19 +12,21 @@ export async function get({ context }) {
       },
     };
   }
-  const GAME_SERVER_HOST = process.env['GAME_SERVER_HOST'];
   try {
-    // TODO: Need to fix issue with response being { error: 'HTTP Page Not Found', error_code: 0 }
-    const response = await fetch(`${GAME_SERVER_HOST}/gamestate`);
-    const gamestate = await response.json();
-    console.log(gamestate);
+    const gamestate = await getGameState();
     return {
-      body: {
-        gamestate,
-      },
+      body: gamestate,
     };
   } catch(e) {
     console.log("error",e);
   }
 
+}
+
+async function getGameState() {
+  const GAME_SERVER_HOST = process.env['GAME_SERVER_HOST'];
+
+  const gamestateResponse = await fetch(`${GAME_SERVER_HOST}/gamestate/reset`);
+
+  return (await gamestateResponse.json());
 }

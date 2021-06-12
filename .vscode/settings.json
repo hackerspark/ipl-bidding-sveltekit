@@ -15,5 +15,7 @@
         "titleBar.inactiveBackground": "#c39d8099",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#c39d80"
+    "peacock.color": "#c39d80",
+    "ponicode.testSettings.testLocation.locationType": "Same folder as source file",
+    "ponicode.testSettings.testLocation.path": "{rootDir}/{filePath}/{fileName}.test.{ext}"
 }
